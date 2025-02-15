@@ -1,5 +1,5 @@
 import {CompanySearch} from "../company"
-import Portfolio from "./Portfolio"
+import Portfolio from "./Portfolio/AddPortfolio"
 import {SyntheticEvent} from "react"
 
 interface Props {

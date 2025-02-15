@@ -1,4 +1,3 @@
-import React from 'react'
 import {SyntheticEvent} from 'react'
 
 type Props = {
@@ -6,7 +5,7 @@ type Props = {
     symbol: string
 }
 
-const Portfolio = ({onPortfolioCreate, symbol}: Props) => {
+const AddPortfolio = ({onPortfolioCreate, symbol}: Props) => {
   return (
     <form onSubmit={onPortfolioCreate}>
         <input readOnly={true} hidden={true} value={symbol} type="text" />
@@ -15,4 +14,4 @@ const Portfolio = ({onPortfolioCreate, symbol}: Props) => {
   )
 }
 
-export default Portfolio
+export default AddPortfolio
