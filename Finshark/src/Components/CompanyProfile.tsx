@@ -1,7 +1,7 @@
 
 interface Props {}
 
-const CompanyProfile = (props: Props) => {
+const CompanyProfile = ( {}: Props) => {
   return (
     <div>CompanyProfile</div>
   )
